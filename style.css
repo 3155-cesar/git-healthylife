@@ -9,13 +9,10 @@
 }
 
 body{
-    font-family: 'Poppins' ,sans-serif;
-    background-image: url(img/Formacion-continua-en-salud-importancia-y-ventajas.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    
+     font-family: 'Poppins' ,sans-serif;
+     min-height: 100vh;
+     background: url(img/mentidacion.jpg)no-repeat center center fixed;
+     background-size: cover;
       }
 
 
@@ -29,7 +26,7 @@ img{
 }
 
 .header{
-    background-color:white;
+    background-color:transparent;
     padding: 150px 0 100px 0;
     min-height: 70vh;
     display: flex;
@@ -52,10 +49,11 @@ img{
 } 
 
 .menu .navbar ul li a{
+    background-color:antiquewhite;
     font-size: 18px;
     padding: 10px;
     color: rgb(16, 26, 23);
-    display: block;
+    display: block ;
 }
 
 .menu .navbar ul li a:hover{
@@ -149,7 +147,7 @@ img{
 .ESPECIALIDADES{
     padding: 0 0 100px 0;
     text-align: center;
-    background-color:white;
+    background-color:transparent;
 }
 
 .ESPECIALIDADES h2{
@@ -186,7 +184,7 @@ img{
 }
 
 .formulario{
-    background-color: white;
+    background-color: transparent;
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -259,7 +257,7 @@ textarea{
 
 .footer{
     padding: 10px;
-    background-color: rgb(119, 228, 228);
+    background-color:antiquewhite;
 }
 .footer-content{
     display: flex;
@@ -380,6 +378,7 @@ form{
 
 .footer{
     padding: 30px;
+    background-color: antiquewhite;
 }
 
 .footer-content{
