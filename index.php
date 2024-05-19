@@ -22,7 +22,7 @@
                     <li><a href="#especialidades">ESPECIALIDADES</a></li>
                     <li><a href="#horarios">HORARIOS</a></li>
                     <li><a href="#ubicacion">UBICACION</a></li>
-                    <li><a href="#agendar">AGENDAMIENTO DE CITAS</a></li>
+                    <li><a href="#agendar">AGENDAR CITA MEDICA</a></li>
                 </ul>
              </nav>
         </div>
@@ -38,7 +38,7 @@
             ADEMAS DE QUE TE OFRECEMOS LOS MEJORES EQUIPOS MEDICOS 
             PARA UN ANALISIS Y DIAGNOSTICO PRECISO.
            </P>
-           <a href="#" class="btn-1">INFORMACION</a>
+           <a href="#agendar" class="btn-1">AGENDAR CITA MEDICA</a>
           </div>
           <div class="header-img">
            <img src="img/H.png" alt="">
@@ -246,7 +246,20 @@
              </div>
              <div class="input-container">
                 <input type="datetime-local" name="tiempo" id="">
-             </div>  
+                <i class="fa-solid fa-calendar"></i>
+             </div>
+             
+             <div class="input-container">
+                <input list="doctor" name="doctor"placeholder="DOCTORES">
+                <datalist id="doctor">
+                  <option value="PDRT.VICTOR RUMIGUANO"></option>
+                  <option value="ECO. ALBERTO DUEÑAS"></option>
+                  <option value="ODONT.JUAN ANDRADE"></option>
+                  <option value="RAYX.VIVIANA MOROCHO"></option>
+                  <option value="QRFN.CESAR MUÑOZ"></option>
+                </datalist>
+                <i class="fa fa-address-card"></i>
+             </div>
              <div class="input-container">
                 <textarea name="estado" placeholder="DETALLE DE LA CITA MEDICA"></textarea>
              </div>

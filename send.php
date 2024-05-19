@@ -9,6 +9,7 @@ if(isset($_POST['send'])){
         strlen($_POST['phone']) >= 1 &&
         strlen($_POST['email']) >= 1 &&
         strlen($_POST['tiempo']) >= 1 &&
+        strlen($_POST['doctor']) >= 1 &&
         strlen($_POST['estado']) >= 1 
 
     ){
@@ -17,9 +18,10 @@ if(isset($_POST['send'])){
       $phone =trim($_POST['phone']);
       $email =trim($_POST['email']);
       $tiempo =trim($_POST['tiempo']);
+      $doctor =trim($_POST['doctor']);
       $estado =trim($_POST['estado']);
-      $consulta = "INSERT INTO datos(cedula,nombre,telefono,email,tiempo,estado) 
-      VALUES ('$cedula','$name','$phone','$email','$tiempo','$estado')";
+      $consulta = "INSERT INTO datos(cedula,nombre,telefono,email,tiempo,doctor,estado) 
+      VALUES ('$cedula','$name','$phone','$email','$tiempo','$doctor','$estado')";
       $resultado = mysqli_query($conex,$consulta);
     }
 }
