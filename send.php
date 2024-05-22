@@ -20,7 +20,7 @@ if(isset($_POST['send'])){
       $tiempo =trim($_POST['tiempo']);
       $doctor =trim($_POST['doctor']);
       $estado =trim($_POST['estado']);
-      $consulta = "INSERT INTO datos(cedula,nombre,telefono,email,tiempo,doctor,estado) 
+      $consulta = "INSERT INTO dato(cedula,nombre,telefono,email,tiempo,doctor,estado) 
       VALUES ('$cedula','$name','$phone','$email','$tiempo','$doctor','$estado')";
       $resultado = mysqli_query($conex,$consulta);
     }
