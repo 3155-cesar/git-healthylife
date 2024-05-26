@@ -265,7 +265,6 @@
              </div>
             <input type="submit" name="send" class="btn" onclick="myfunction()">   
             </div>
-
         </form>
     </section>
      
